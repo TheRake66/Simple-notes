@@ -156,7 +156,7 @@ namespace Simple_notes
                     }
                     catch { }
                 });
-                aide.Click += new EventHandler((a, b) => { (new APropos()).ShowDialog(); });
+                aide.Click += new EventHandler((a, b) => { (new Aide()).ShowDialog(); });
 
 
                 menu.Show((Control)sender, e.Location);

@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace Simple_notes
 {
-    public partial class APropos : Form
+    public partial class Aide : Form
     {
         // ====================================================================
-        public APropos()
+        public Aide()
         {
             // -------------------------------------
             InitializeComponent();
